@@ -10,10 +10,7 @@
 
 
 
-
-
-
-
+```cpp
 int ledPin = 2;
 int led = 13;
  int  bouttonState=0;
@@ -40,5 +37,15 @@ int a = digitalRead( butpin);
 
 
   digitalWrite(led , LOW);
+
+}
+```
+
+
+
+
+
+
+پ
 
 }
