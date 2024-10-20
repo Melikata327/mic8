@@ -46,6 +46,6 @@ int a = digitalRead( butpin);
 
 
 
-پ
 
-}
+
+
