@@ -15,7 +15,7 @@ int ledPin = 2;
 int led = 13;
  int  bouttonState=0;
 void setup() {
-  pinMode(ledPin,INPUT);
+  pinMode(ledPin,INPUT); 
   pinMode(led, OUTPUT);
 
 
@@ -25,18 +25,18 @@ void setup() {
 void loop() {
 int a = digitalRead( butpin);
 
-   if(a==HIGH)
+   if(a==HIGH) //اگر روشن بود
   {
 
 
-    digitalWrite(ledPin , HIGH);
-  } else  {
+    digitalWrite(ledPin , HIGH); // روشن شود
+  } else  { // درغیر اینصورت
 
   }
 
 
 
-  digitalWrite(led , LOW);
+  digitalWrite(led , LOW); // خاموش بشود
 
 }
 ```
