@@ -25,11 +25,11 @@ void setup() {
 void loop() {
 int a = digitalRead( butpin);
 
-   if(a==HIGH) //اگر روشن بود
+   if(a==HIGH) // شرط روشن بودن
   {
 
 
-    digitalWrite(ledPin , HIGH); // روشن شود
+    digitalWrite(ledPin , HIGH); // روشن بشود در صورت بررسی
   } else  { // درغیر اینصورت
 
   }
